@@ -1,5 +1,16 @@
 <?php
-// Nou.php
+/**
+ * Afegeix un nou producte a la base de dades.
+ *
+ * Aquest script permet afegir un nou producte a la base de dades
+ * amb el nom i el preu especificats.
+ *
+ * @param string $nom_producte El nom del producte a afegir.
+ * @param float $preu_producte El preu del producte a afegir.
+ * @return bool True si s'ha afegit el producte amb èxit, fals si hi ha hagut un error.
+ * @author Cristina Molano
+ * @version 1.0
+ */
 
 // Connexió a la base de dades
 $conn = new mysqli("192.168.1.26", "admin", "admin", "la_meva_botiga");
